@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bienes Raices</title>
-    <link rel="stylesheet" href="build/css/app.css">
+    <link rel="stylesheet" href="/bienesraices/build/css/app.css">
 </head>
 <body>
     
@@ -31,7 +31,8 @@
    
                 
             </div> <!--.barra-->
-
-            <h1>Venta de Casas y Departamentos  Exclusivos de Lujo</h1>
+            <?php if($inicio) { ?>
+                <h1>Venta de Casas y Departamentos  Exclusivos de Lujo</h1>
+            <?php } ?>
         </div>
     </header>
