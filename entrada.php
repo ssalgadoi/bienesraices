@@ -1,7 +1,7 @@
 <?php
- include 'include/templates/header.php';
+   require 'include/funciones.php';
+   incluirTemplate('header');
 ?>
-
 
     <main class="contenedor seccion contenido-centrado">
         <h1>Guía para la decoración de tu hogar</h1>
@@ -22,11 +22,10 @@
             <p>Aliquam lectus magna, luctus vel gravida nec, iaculis ut augue. Praesent ac enim lorem. Quisque ac dignissim sem, non condimentum orci. Morbi a iaculis neque, ac euismod felis. Fusce augue quam, fermentum sed turpis nec, hendrerit dapibus ante. Cras mattis laoreet nibh, quis tincidunt odio fermentum vel. Nulla facilisi.</p>
         </div>
     </main>
-
 <?php
-    include 'include/templates/footer.php';
-?>    
-    
+   incluirTemplate('footer');
+?>
+
     
     
     
